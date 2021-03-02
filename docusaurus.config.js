@@ -1,13 +1,13 @@
 module.exports = {
-  title: "My Site",
+  title: "nossa dev",
   tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://sugu-sano.github.io",
   baseUrl: "/",
+  projectName: "dev-blog",
+  organizationName: "sugu-sano",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "nossa dev",
@@ -16,12 +16,6 @@ module.exports = {
         src: "img/logo.svg",
       },
       items: [
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
         { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",

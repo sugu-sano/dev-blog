@@ -10,16 +10,16 @@ tags: [Docusaurus, React, volta, Node.js, yarn, Markdown]
 
 ## 前書き
 
-`React`製の静的サイトジェネレータ`Docusaurus`でブログを作成しました。
+前から開発用の個人ブログを作りたいと思っていて、`React`でブログを作成しました。
 
-`React`製の静的サイトジェネレータといえば`Gatsby`が思い浮かびます。
+`React`製の静的サイトジェネレータといえば`Gatsby`が思い浮かびますが、`Docusaurus`を使用しました。
 
-ただ、前から`Gatsby`の`GraphQL`による柔軟性や、その他の豊富な機能は自分にはオーバースペックかなと思っていました。
+`Gatsby`は以前に使ってみて、ただマークダウンで書けるブログを作るだけならオーバースペックかなと感じていました。
 
 > 他のツールとの比較
 > <https://v2.docusaurus.io/docs/#gatsby>
 
-マークダウンで書けるブログが欲しいところ、ちょうど、下記の記事を拝見して`Docusaurus`でブログを作成することに決めました。
+同じ用にマークダウンで書ける物がいいなと考えていたところ、下記の記事を拝見して`Docusaurus`でブログを作成することに決めました。
 
 > ドキュメント作成ツールの決定版！Markdown + React の体験を Docusaurus で
 > <https://zenn.dev/ningensei848/articles/docusaurus_intro>
@@ -33,14 +33,14 @@ tags: [Docusaurus, React, volta, Node.js, yarn, Markdown]
 <https://v2.docusaurus.io/docs/installation#scaffold-project-website>
 
 ```sh
-$ npx @docusaurus/init@latest init dev-blog classic
+npx @docusaurus/init@latest init dev-blog classic
 ```
 
 忘れないうちに`git`管理下に置きます。
 
 ```sh
-$ cd dev-blog
-$ git init
+cd dev-blog
+git init
 ```
 
 `.gitignore`は最初から作成されていました。
@@ -75,7 +75,7 @@ yarn-error.log*
 `yarn`で必要なパッケージを追加します。
 
 ```sh
-$ yarn add --dev typescript @docusaurus/module-type-aliases @types/react @types/react-router-dom @types/react-helmet @tsconfig/docusaurus
+yarn add --dev typescript @docusaurus/module-type-aliases @types/react @types/react-router-dom @types/react-helmet @tsconfig/docusaurus
 ```
 
 `tsconfig.json`を新規作成します。
@@ -96,8 +96,8 @@ CIでのTypeScriptコンパイラによる型チェックに使用したり、vs
 <https://dev.classmethod.jp/articles/node-version-volta/>
 
 ```sh
-$ volta pin node@14.15.5
-$ volta pin yarn@1.22.5
+volta pin node@14.15.5
+volta pin yarn@1.22.5
 ```
 
 Node.jsのバージョン管理には`volta`を使用しています。
@@ -109,7 +109,7 @@ Rust製で高速に動作することが特徴です。
 準備ができたのでこの記事をプレビューしてみます。
 
 ```sh
-$ yarn start
+yarn start
 ```
 
 ![image](https://user-images.githubusercontent.com/70303693/108722327-5f3ed780-7566-11eb-9777-71971dbbe8ae.png)
@@ -117,8 +117,6 @@ $ yarn start
 `npm scripts`を確認すると`yarn start`で`docusaurus start`が呼ばれているようです。
 
 ```json
-{
-  // 略...
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -128,8 +126,6 @@ $ yarn start
     "serve": "docusaurus serve",
     "clear": "docusaurus clear"
   },
-  // 略...
-}
 ```
 
 `Lighthouse`でパフォーマンスも確認してみたいと思います。
@@ -137,17 +133,15 @@ $ yarn start
 `yarn start`のプロセスを止めて下記コマンドを入力します。
 
 ```sh
-$ yarn build
-$ yarn serve
+yarn build
+yarn serve
 ```
 
 ポート未指定では`http://localhost:3000`でホストされるようです。
 
-素晴らしいパフォーマンスを発揮しているようです。
+パフォーマンスは申し分ないようです。
 
 ![image](https://user-images.githubusercontent.com/70303693/108724140-5b13b980-7568-11eb-83df-2da4738e5195.png)
-
-
 
 ## 次回の予定
 

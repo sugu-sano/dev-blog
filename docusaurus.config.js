@@ -2,7 +2,7 @@ module.exports = {
   title: "nossa dev",
   tagline: "The tagline of my site",
   url: "https://sugu-sano.github.io",
-  baseUrl: "/",
+  baseUrl: "/dev-blog/",
   projectName: "dev-blog",
   organizationName: "sugu-sano",
   onBrokenLinks: "throw",

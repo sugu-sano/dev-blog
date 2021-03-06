@@ -1,10 +1,6 @@
-name: documentation
+name: deploy
 
 on:
-  pull_request:
-    branches: [documentation]
-  push:
-    branches: [documentation]
   workflow_dispatch:  # Action タブから任意に実行できるようにする
 
 jobs:

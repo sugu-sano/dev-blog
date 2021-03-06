@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>nossa dev Blog</title>
+        <link>https://sugu-sano.github.io/blog</link>
+        <description>nossa dev Blog</description>
+        <lastBuildDate>Mon, 22 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Docusaurusでブログを作成しました]]></title>
+            <link>https://sugu-sano.github.io/blog/2021-02-22-created-blog</link>
+            <guid>2021-02-22-created-blog</guid>
+            <pubDate>Mon, 22 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[前書き]]></description>
+        </item>
+    </channel>
+</rss>

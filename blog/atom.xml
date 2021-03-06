@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sugu-sano.github.io/blog</id>
+    <title>nossa dev Blog</title>
+    <updated>2021-02-22T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sugu-sano.github.io/blog"/>
+    <subtitle>nossa dev Blog</subtitle>
+    <icon>https://sugu-sano.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Docusaurusでブログを作成しました]]></title>
+        <id>2021-02-22-created-blog</id>
+        <link href="https://sugu-sano.github.io/blog/2021-02-22-created-blog"/>
+        <updated>2021-02-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前書き]]></summary>
+    </entry>
+</feed>

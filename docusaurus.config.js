@@ -18,8 +18,8 @@ module.exports = {
       items: [
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://github.com/sugu-sano/dev-blog",
+          label: "GitHub📦",
           position: "right",
         },
       ],

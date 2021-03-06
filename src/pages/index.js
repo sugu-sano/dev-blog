@@ -8,7 +8,7 @@ import { Redirect } from "@docusaurus/router";
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-  return <Redirect to="/blog" />;
+  return <Redirect to="/dev-blog/blog" />;
 }
 
 export default Home;

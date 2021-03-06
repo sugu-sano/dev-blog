@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{86:function(e,t,n){"use strict";n.r(t);var o=n(0),c=n.n(o),i=(n(95),n(22)),a=(n(98),n(87),n(100));t.default=function(){return Object(i.default)().siteConfig,c.a.createElement(a.Redirect,{to:"/dev-blog/blog"})}}}]);

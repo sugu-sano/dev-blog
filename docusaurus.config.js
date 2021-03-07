@@ -29,7 +29,7 @@ module.exports = {
       links: [],
       copyright: `
         <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.
+        Copyright © ${new Date().getFullYear()} sugu-sano. Built with Docusaurus.
       `,
     },
   },

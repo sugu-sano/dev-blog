@@ -162,7 +162,9 @@ Docusaurus にはもともと簡単に GitHub Actions でデプロイできる�
 
 GitHub にブログのリポジトリを作成し push しておきます。
 
-そして GitHub Actions でデプロイできるすために、リポジトリの `⚙️Setting` > `Secrets` > `New repository secret`にシークレットを登録します。
+そして GitHub Actions に使用するシークレットをリポジトリにを登録します。
+
+`⚙️Setting` > `Secrets` > `New repository secret`
 
 キー名は`GH_PAGES_DEPLOY`で値は`~/.ssh/`ディレクトリにある GitHub への接続する SSH 秘密鍵の値です。
 
@@ -186,7 +188,7 @@ module.exports = {
 
 `baseUrl`はブログのルートパスの設定で上記の例だとトップページが`https://sugu-sano.github.io/dev-blog/`になります。
 
-`projectName`はリポジトリ名で、`organizationName`は個人の場合はユーザ名になります。
+`projectName`はリポジトリ名そのまま、`organizationName`は個人の場合は GitHub のユーザ名になります。
 
 #### ブログのナビゲーションバーのリンクを修正
 

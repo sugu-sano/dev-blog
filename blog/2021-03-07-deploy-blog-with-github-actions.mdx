@@ -2,7 +2,7 @@
 slug: 2021-03-07-deploy-blog-with-github-actions
 title: GitHub Actionsでブログをデプロイする
 author: sugu-sano
-author_title: web application devlopper
+author_title: web application developper
 author_url: https://github.com/sugu-sano
 author_image_url: https://avatars.githubusercontent.com/u/70303693?s=60&v=4
 tags: [Docusaurus, GitHub Actions, Node.js]
@@ -186,14 +186,14 @@ module.exports = {
 
 `url`はブログの URL です。GitHub Actions にデプロイされるため、カスタムドメインを設定しなければ`https://[ユーザ名（組織名）].github.io`を設定します。
 
-`baseUrl`はブログのルートパスの設定で上記の例だとトップページが`https://sugu-sano.github.io/dev-blog/`になります。
+`baseUrl`はブログのルートパスの設定で、この場合、トップページが`https://sugu-sano.github.io/dev-blog/`になります。
 
-`projectName`はリポジトリ名そのまま、`organizationName`は個人の場合は GitHub のユーザ名になります。
+`projectName`はリポジトリ名そのままで、`organizationName`は個人の場合は GitHub のユーザ名になります。
 
 #### ブログのナビゲーションバーのリンクを修正
 
-今回はブログだけ欲しいので`themeConfig.navbar.items`を下記のように編集し`docs`へのリンクを消しました。
-あと、Github へのリンクを自分のブログのリポジトリにしておきます。
+今回はブログだけ欲しいので`themeConfig.navbar.items`を下記のように編集しドキュメントへのリンクを消しました。
+それと、Github へのリンクを自分のブログのリポジトリにしておきます。
 
 ```js
 items: [
@@ -242,8 +242,7 @@ copyright: `
 
 ここから自分にあったかたちに変更しました。
 
-`documentation`ブランチをプッシュをトリガーにデプロイされるようになっていました。
-デプロイ事故を防ぎたいので GitHub の Actions タブで任意にデプロイされるようにしました。
+もともと、`documentation`ブランチをプッシュをトリガーにデプロイされるようになっていましたが、デプロイ事故を防ぎたいので GitHub の Actions タブで任意にデプロイされるようにしました。
 
 ```yml
 on:
@@ -349,7 +348,7 @@ module.exports = {
 
 ### トップページの修正
 
-もともと Docusaurus の説明などいろいろコンテンツがありましたが、不要なのですべて削除します。
+もともと Docusaurus の説明などいろいろコンテンツがありましたが、すべて不要なので削除します。
 
 トップページ`/dev-blog`にアクセスされた場合、メインコンテンツのブログ`/dev-blog/blog`ヘリダイレクトされるようにします。
 
@@ -376,7 +375,9 @@ export default Home;
 
 ### 実際にデプロイする
 
-すべての変更を push したら GitHub にアクセスし Actions タブから`Run workflow`を選択し`main`ブランチを洗濯して実行します。
+すべての変更を push したら GitHub にアクセスし Actions タブを開きます。
+
+そして、`Run workflow`を選択し`main`ブランチを洗濯して実行します。
 
 <img
   alt="Docusaurus with Keytar"

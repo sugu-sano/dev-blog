@@ -4,9 +4,16 @@
         <title>nossa dev Blog</title>
         <link>https://sugu-sano.github.io/blog</link>
         <description>nossa dev Blog</description>
-        <lastBuildDate>Sun, 07 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[C# の Trim メソッドで取り除かれる文字について調査した]]></title>
+            <link>https://sugu-sano.github.io/dev-blog/blog/2021-03-10-trim-space-in-csharp</link>
+            <guid>2021-03-10-trim-space-in-csharp</guid>
+            <pubDate>Wed, 10 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[string.Trimメソッドとは]]></description>
+        </item>
         <item>
             <title><![CDATA[GitHub Actionsでブログをデプロイする]]></title>
             <link>https://sugu-sano.github.io/dev-blog/blog/2021-03-07-deploy-blog-with-github-actions</link>

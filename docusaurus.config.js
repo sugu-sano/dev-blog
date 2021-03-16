@@ -32,6 +32,9 @@ module.exports = {
         Copyright © ${new Date().getFullYear()} sugu-sano. Built with Docusaurus.
       `,
     },
+    prism: {
+      additionalLanguages: ["csharp"],
+    },
   },
   presets: [
     [

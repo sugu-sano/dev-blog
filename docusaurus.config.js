@@ -8,6 +8,10 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  i18n: {
+    defaultLocale: "ja",
+    locales: ["ja"],
+  },
   themeConfig: {
     navbar: {
       title: "nossa dev",

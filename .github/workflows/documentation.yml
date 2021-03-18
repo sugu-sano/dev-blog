@@ -57,4 +57,4 @@ jobs:
           else
           npm i
           fi
-          npx docusaurus deploy
+          npx docusaurus deploy --locale ja

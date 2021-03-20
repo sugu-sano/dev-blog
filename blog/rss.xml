@@ -8,7 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Docusaurus にシンタックスハイライトされる言語を追加する方法]]></title>
+            <title><![CDATA[Docusaurus でシンタックスハイライト対応言語を追加する方法]]></title>
             <link>https://sugu-sano.github.io/dev-blog/blog/2021-03-17-add-syntax-highlighting-theme-in-docusaurus</link>
             <guid>2021-03-17-add-syntax-highlighting-theme-in-docusaurus</guid>
             <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>

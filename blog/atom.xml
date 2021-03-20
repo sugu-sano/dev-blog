@@ -8,7 +8,7 @@
     <subtitle>nossa dev Blog</subtitle>
     <icon>https://sugu-sano.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Docusaurus にシンタックスハイライトされる言語を追加する方法]]></title>
+        <title type="html"><![CDATA[Docusaurus でシンタックスハイライト対応言語を追加する方法]]></title>
         <id>2021-03-17-add-syntax-highlighting-theme-in-docusaurus</id>
         <link href="https://sugu-sano.github.io/dev-blog/blog/2021-03-17-add-syntax-highlighting-theme-in-docusaurus"/>
         <updated>2021-03-17T00:00:00.000Z</updated>

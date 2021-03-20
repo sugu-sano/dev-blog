@@ -1,6 +1,6 @@
 ---
 slug: 2021-03-17-add-syntax-highlighting-theme-in-docusaurus
-title: Docusaurus にシンタックスハイライトされる言語を追加する方法
+title: Docusaurus でシンタックスハイライト対応言語を追加する方法
 author: sugu-sano
 author_title: web application developper
 author_url: https://github.com/sugu-sano

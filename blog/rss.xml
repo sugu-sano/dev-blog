@@ -4,9 +4,16 @@
         <title>nossa dev Blog</title>
         <link>https://sugu-sano.github.io/blog</link>
         <description>nossa dev Blog</description>
-        <lastBuildDate>Wed, 10 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Docusaurus にシンタックスハイライトされる言語を追加する方法]]></title>
+            <link>https://sugu-sano.github.io/dev-blog/blog/2021-03-17-add-syntax-highlighting-theme-in-docusaurus</link>
+            <guid>2021-03-17-add-syntax-highlighting-theme-in-docusaurus</guid>
+            <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docusaurus のマークダウンで C# がシンタックスハイライトされていませんでした。]]></description>
+        </item>
         <item>
             <title><![CDATA[C# の Trim メソッドで取り除かれる文字について調査した]]></title>
             <link>https://sugu-sano.github.io/dev-blog/blog/2021-03-10-trim-space-in-csharp</link>

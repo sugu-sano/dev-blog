@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{76:function(e){e.exports=JSON.parse('{"allTagsPath":"/dev-blog/blog/tags","slug":"entity-framework-core","name":"entityframework core","count":1,"permalink":"/dev-blog/blog/tags/entity-framework-core"}')}}]);

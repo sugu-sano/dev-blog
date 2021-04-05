@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{94:function(e){e.exports=JSON.parse('{"allTagsPath":"/dev-blog/blog/tags","slug":"net-core","name":".net core","count":1,"permalink":"/dev-blog/blog/tags/net-core"}')}}]);
